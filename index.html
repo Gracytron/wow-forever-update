@@ -1,47 +1,315 @@
+
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>World of Warcraft: Forever Launch Delayed Until January 12</title>
-<meta name="description" content="A parody announcement: WoW Forever is now scheduled for January 12, 2027, following additional launch readiness testing.">
+<meta name="description" content="WoW Forever is now scheduled for January 12, 2027, following additional launch readiness testing.">
+
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="World of Warcraft">
 <meta property="og:title" content="World of Warcraft: Forever Launch Delayed Until January 12">
 <meta property="og:description" content="A change to the worldwide launch date: January 12, 2027 at 3:00 PM PST. Find out what's behind the new schedule.">
-<!-- IMPORTANT: Replace YOUR_USERNAME below with your GitHub username before publishing. -->
-<meta property="og:image" content="https://Gracytron.github.io/wow-forever-update/preview.jpg">
+<meta property="og:url" content="https://gracytron.github.io/wow-forever-update/">
+<meta property="og:image" content="https://gracytron.github.io/wow-forever-update/preview.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#061720">
+
 <style>
-:root{color-scheme:dark;font-family:Arial,Helvetica,sans-serif}*{box-sizing:border-box}body{margin:0;background:#08121b;color:#eee}.top{border-bottom:1px solid #a27c37;background:#111d26;padding:18px 22px}.bar{max-width:1020px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:15px}.wordmark{font-size:22px;font-weight:800;color:#e5c47d;letter-spacing:1px;text-shadow:1px 2px 5px #000}.menu{color:#bbb;font-size:13px}main{max-width:880px;margin:auto;padding:38px 22px 70px}.pill{display:inline-block;padding:6px 10px;border:1px solid #74633f;border-radius:4px;color:#d4b673;font-size:11px;letter-spacing:1.2px;font-weight:700;text-transform:uppercase}h1{font-family:Georgia,serif;font-size:clamp(34px,5.5vw,56px);line-height:1.08;margin:18px 0 16px;color:#f1d59b}p{font-size:17px;line-height:1.65;color:#c9d4dc}.date{font-size:13px;color:#879dab;margin-bottom:26px}.hero{width:100%;display:block;border:1px solid #586b71;border-radius:4px;box-shadow:0 15px 40px #0008}article{max-width:760px;margin:28px auto}.lede{font-size:20px;color:#f2f1ed}button{background:#c7a260;color:#111b20;font-weight:700;font-size:16px;border:0;padding:14px 24px;border-radius:4px;cursor:pointer}button:hover{background:#eed092}.notice{margin:28px 0 10px;font-size:14px;color:#97adb7;border-top:1px solid #31434f;padding-top:24px}footer{color:#7c939e;text-align:center;padding:22px;font-size:12px}.tiny{opacity:.8;font-size:13px}.reveal{display:none;margin:28px 0;padding:26px;border:1px solid #d5a65b;background:#14212b;border-radius:6px;text-align:center}.reveal h2{font-size:30px;color:#ebce86}.reveal p{margin-bottom:8px}a{color:#e8bf72}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #07131e;
+  color: #e8e1d1;
+  line-height: 1.65;
+}
+
+.top {
+  background: linear-gradient(90deg, #091421, #12344d, #091421);
+  border-bottom: 2px solid #8b6931;
+  padding: 20px;
+}
+
+.bar {
+  max-width: 1050px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.wordmark {
+  color: #e9c782;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.menu {
+  color: #b9c6d5;
+  font-size: 12px;
+}
+
+main {
+  max-width: 950px;
+  margin: 45px auto;
+  padding: 35px;
+  background: #0e1e2e;
+  border: 1px solid #66502c;
+  border-radius: 8px;
+}
+
+.pill {
+  display: inline-block;
+  padding: 5px 12px;
+  background: #20384b;
+  border: 1px solid #596c78;
+  border-radius: 20px;
+  color: #b4c6d4;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #f1d99d;
+  line-height: 1.15;
+  font-size: clamp(30px, 5vw, 48px);
+  margin: 20px 0;
+}
+
+.date {
+  color: #93a4b5;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.hero {
+  width: 100%;
+  border: 1px solid #8b6931;
+  border-radius: 5px;
+  display: block;
+}
+
+article {
+  margin-top: 28px;
+  font-size: 17px;
+}
+
+.lede {
+  font-size: 21px;
+  color: #f2dfb9;
+}
+
+#revealbutton {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 14px 25px;
+  background: linear-gradient(#b9934c, #735020);
+  border: 1px solid #edc477;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#revealbutton:hover {
+  filter: brightness(1.2);
+}
+
+.notice {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #324252;
+  color: #8b9cac;
+  font-size: 12px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  color: #8799a9;
+  font-size: 12px;
+}
+
+/* Achievement popup */
+
+.achievement-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  padding: 15px;
+}
+
+.achievement-overlay.show {
+  display: flex;
+  animation: fadeIn 0.5s ease;
+}
+
+.achievement-popup {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  animation: achievementEnter 0.7s ease-out;
+}
+
+.achievement-popup img {
+  width: 100%;
+  max-height: 85vh;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 60px rgba(29, 137, 255, 0.3);
+}
+
+.achievement-close {
+  margin-top: 15px;
+  padding: 10px 25px;
+  background: #243d59;
+  color: #fff;
+  border: 1px solid #a88b50;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes achievementEnter {
+  from {
+    opacity: 0;
+    transform: scale(0.65);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .achievement-popup img {
+    max-height: 75vh;
+  }
+}
 </style>
 </head>
+
 <body>
-<header class="top"><div class="bar"><div class="wordmark">AZEROTH NEWS</div><div class="menu">LATEST NEWS &nbsp;&nbsp; | &nbsp;&nbsp; COMMUNITY</div></div></header>
+
+<header class="top">
+  <div class="bar">
+    <div class="wordmark">AZEROTH NEWS</div>
+    <div class="menu">LATEST NEWS | COMMUNITY</div>
+  </div>
+</header>
+
 <main>
-<span class="pill">Community parody</span>
-<h1>World of Warcraft: Forever Launch Delayed Until January 12</h1>
-<div class="date">November 1, 2026 · News update</div>
-<img class="hero" src="banner.jpg" alt="Fantasy-themed World of Warcraft Forever logo artwork">
-<article>
-<p class="lede">Following a final round of launch readiness reviews, the journey to Azeroth will need a little more time.</p>
-<p>World of Warcraft: Forever is now scheduled for a worldwide launch on January 12, 2027, at 3:00 PM PST. We know adventurers have been preparing their guild rosters and leveling plans, and we appreciate your patience.</p>
-<p>We encourage players to review the updated launch notes and prepare accordingly.</p>
-<button id="revealbutton" type="button">Read the updated launch notes</button>
-<section class="reveal" id="reveal"><h2>You've been Rickrolled.</h2><p>Never gonna give you up. Never gonna let you down.</p><p class="tiny">Opening the official music video...</p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Watch the video</a></section>
-<div class="notice">Fan-made parody. Not affiliated with or endorsed by Blizzard Entertainment. This is not a real delay announcement.</div>
-</article></main>
-<footer>Community parody · For entertainment only</footer>
+  <span class="pill">Community parody</span>
+
+  <h1>
+    World of Warcraft: Forever Launch Delayed Until January 12
+  </h1>
+
+  <div class="date">
+    November 1, 2026 · News update
+  </div>
+
+  <img class="hero" src="banner.jpg"
+       alt="World of Warcraft Forever">
+
+  <article>
+    <p class="lede">
+      Following a final round of launch readiness reviews,
+      the journey to Azeroth will need a little more time.
+    </p>
+
+    <p>
+      World of Warcraft: Forever is now scheduled for a
+      worldwide launch on January 12, 2027, at 3:00 PM PST.
+      We know adventurers have been preparing their guild
+      rosters and leveling plans, and we appreciate your patience.
+    </p>
+
+    <p>
+      We encourage players to review the updated launch notes
+      and prepare accordingly.
+    </p>
+
+    <button id="revealbutton" type="button">
+      Read the updated launch notes
+    </button>
+
+    <div class="notice">
+      Fan-made parody. Not affiliated with or endorsed by
+      Blizzard Entertainment. This is not a real delay announcement.
+    </div>
+  </article>
+</main>
+
+<footer>
+  Community parody · For entertainment only
+</footer>
+
+<!-- Achievement popup -->
+<div id="achievementOverlay" class="achievement-overlay">
+  <div class="achievement-popup">
+    <img src="achievement-popup.png"
+         alt="Achievement Earned: I Knew It Was Fake">
+
+    <button class="achievement-close" id="closeButton">
+      Close
+    </button>
+  </div>
+</div>
+
 <script>
-const video='https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-let revealed=false;
-function showReveal(){if(revealed)return;revealed=true;document.getElementById('reveal').style.display='block';document.getElementById('revealbutton').textContent='Open Rickroll';setTimeout(()=>{window.location.href=video},1700)}
-document.getElementById('revealbutton').addEventListener('click',showReveal);
-// On a normal browser visit, give the reader a moment to see the announcement, then reveal the joke.
-setTimeout(showReveal,4200);
+function showAchievement() {
+  document.getElementById("achievementOverlay")
+    .classList.add("show");
+}
+
+function closeAchievement() {
+  document.getElementById("achievementOverlay")
+    .classList.remove("show");
+}
+
+document.getElementById("revealbutton")
+  .addEventListener("click", showAchievement);
+
+document.getElementById("closeButton")
+  .addEventListener("click", closeAchievement);
+
+window.addEventListener("load", function() {
+  setTimeout(showAchievement, 3500);
+});
 </script>
+
 </body>
 </html>
